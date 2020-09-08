@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Recursive', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+/*General*/
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 36px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.padding {
+	padding: 90px 0;
+}
+.col {
+	flex: 0 1 50%;
+}
+.col-1 {
+	padding-right: 50px;
+	border-right: 1px solid #6C537D;
+}
+.col-2 {
+	padding-left: 50px;
+	font-size: 14px;
+}
+.button {
+	text-decoration: none;
+	border-radius: 36px;
+	padding: 12px 24px;	
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 700px;
+}
+.button-1 {
+	background: #5EBD8B;		
+	color: white;
+	font-size: 20px;	
+}
+.button-2 {
+	border: 1px solid grey;
+	color: #787878;
+	font-size: 10px;
+}
+.button-3 {
+	text-align: center;
+}
+/*Header*/
+.header {
+	background: linear-gradient(to right #504f78, #7a3f79);
+	padding: 20px;
+	position: absolute;
+	width: 100%
+}
+.brand, .nav a {
+	text-decoration: none;
+}	
+.brand {
+	color: white;
+	font-size: 22px;
+	font-weight: 700px;
+}
+.nav a {
+	color: #60A587;
+	font-size: 19px;
+	margin-left: 15px;
+}
+/*section*/
+.section {
+	background: #6E4078;
+	padding: 120px 0;	
+}
+.p {
+	color: white;
+	font-size: 40px;
+}
+.para1 {
+	font-size: 14px;
+	margin-top: 30px;
+	color: #686868;
+	line-height: 1.7;
+}
+.para {
+	color: white;
+	font-size: 25px; 
+}
+.h2 {
+	font-size: 30px;
+	color: #686868;
+}
+.text {
+	margin-top: 20px;
+	font-size: 10px;
+}
+.list p{
+	margin: 39px 0;
+	color: #686868;
+}
+.list i {
+	margin-right: 10px;
+	color: green;
+}
+.sec {
+	background: #e6e9ec;
+	border-top: 1.5 solid #d0ccd2;	
+}
+.col-3 {
+	flex:0 1 30%;
+
+}
+article {
+	background: white;
+	margin: 40px;
+}
+.col-4 {
+	flex:0 1 70%;
+}
+.img {
+	width: 200px;
+}
+.box, .box-1 {
+	padding: 12px 24px;	
+	border: 1px solid #EEEEEE;
+	width: 130px;
+	margin: 15px;
+	color: #EEEEEE;
+}
+.box-1 {	
+	width: 330px;
+	height: 100px;
+}
+.form {
+	margin-top: 32px;
+}
+.form input {
+	width: 48%;
+}
+.form-control-1 {
+	width: 100%;
+}
+.form-control {
+	display: block;
+	width: 100%
+	padding: 14px 10px;
+	border: 1px solid #979498;
+	margin-bottom: 24px;
+}
+.address {
+	display: flex;
+}
+/*footer*/
+.footer {
+	text-align: center;
+	color: #979498;
+	border-top: 1px solid #d0ccd2;	
+}
