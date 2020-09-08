@@ -6,3 +6,72 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>flex-model2</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/stylesheet/main.css">
+		<script src="https://kit.fontawesome.com/da271af040.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<header class="header">
+		<div class="container flex">
+			<a href="#">
+				<img class="img"  src="assets/media/yy.jpg" alt="logo">
+			</a>
+			<nav class="nav">
+				<a href="#"><i class="far fa-bell"></i></a>
+				<a href="#">Sarah Jone</a>
+				<a href="#"><i class="fas fa-user-alt"></i></a>
+			</nav>
+		</div>
+	</header>
+	<main class="container flex padding">
+		<aside class="aside">
+			<div class="full">
+				<nav class="side">
+					<a href="#"><i class="fas fa-columns"></i>Dashboard</a>
+					<a class="active" href="#"><i class="far fa-newspaper"></i>Article</a>
+					<a href="#"><i class="fas fa-chart-bar"></i>Analytics</a>
+					<a href="#"><i class="fas fa-envelope-open-text"></i>Inbox</a>
+					<a href="#"><i class="fas fa-cogs"></i>Setting</a>
+				</nav>
+				<div>
+					<button class="button">
+						<img class="img-button" src="assets/media/out.png" alt="button">
+						<span>LOG OUT</span>
+					</button>
+				</div>
+			</div>
+		</aside>
+		<article class="article">
+			<div>
+				<div class="col flex">	
+					<img class="img2" src="assets/media/moon1.png" alt="moon">
+				</div>	
+					<h1>WHY ARE WE DOING ALTCAMPUS?</h1>
+					<p class="para">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					<p class="para">
+						It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.assages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+					</p>
+					<div>
+						<a class="button-2" href="#">READ MORE</a>	
+					</div>	
+			</div>							
+		</article>	
+	</main>
+	<footer class="footer">
+	 	<div class="container flex">
+	 		<small>&copy;Alt-Campus</small>
+	 	 	<nav>
+	 		<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>	 		
+	 	</nav> 
+	 	</div>
+	 </footer>      	
+</body>
+</html>
